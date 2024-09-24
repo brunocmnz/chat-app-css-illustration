@@ -7,43 +7,59 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="tela">
-        <div id="perfil">
-            <img src="img/arrow-left.png" alt="Voltar">
-            <img src="img/perfil.png" alt="Foto de perfil">
-            <div id="perfil-info">
-                <h2 id="perfil-nome">Samuel Green</h2>
-                <h3 id="perfil-descricao">Available to Walk</h3>
+        <div id="tela-interior">
+            <div id="tela-cabecalho">
+                <div id="buraco"></div>
+                <div id="tela-cabecalho">
+                    <div id="perfil">
+                        <img src="img/voltar.svg" alt="Voltar">
+                        <img id="img-perfil" src="img/perfil.png" alt="Foto de perfil">
+                        <div id="perfil-info">
+                            <h2 id="perfil-nome">Samuel Green</h2>
+                            <h3 id="perfil-descricao">Available to Walk</h3>
+                        </div>
+                    </div>
+                    <img src="img/opcoes.svg" alt="Opções">
+                </div>
             </div>
-            <img src="img/dots.png" alt="Opções">
-        </div>
-        <p class="msg-recebidas">That sounds great. I’d be happy with that.</p>
-        <p class="msg-recebidas">Could you send over some pictures of your dog, please?</p>
-        <p class="msg-enviadas">
-            <img src="img/dog-1.png" alt="dog1">
-            <img src="img/dog-2.png" alt="dog2">
-            <img src="img/dog-3.png" alt="dog3">
-        </p>
-        <p class="msg-enviadas">Here are a few pictures. She’s a happy girl!</p>
-        <p class="msg-enviadas">Can you make it?</p>
-        <p class="msg-recebidas">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
-        <div class="opcoes">
-            <i class="bi bi-circle"></i>
-            <p class="opcoes-descricao">30 minute walk</p>
+            <p class="msg msg-recebidas">That sounds great. I’d be happy with that.</p>
+            <p class="msg msg-recebidas">Could you send over some pictures of your dog, please?</p>
+            <p class="dogs msg msg-enviadas primeira">
+                <img src="img/dog1.svg" alt="dog1">
+                <img src="img/dog2.svg" alt="dog2">
+                <img src="img/dog3.svg" alt="dog3">
+            </p>
+            <p class="msg msg-enviadas">Here are a few pictures. She’s a happy girl!</p>
+            <p class="msg msg-enviadas">Can you make it?</p>
+            <p class="msg msg-recebidas primeira">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            <div class="opcoes">
+                <div class="opcoes-descricao-div">
+                <i class="bi bi-circle"></i>
+                <p class="opcoes-descricao">30 minute walk</p>
+            </div>
             <p class="opcoes-preco">$29</p>
         </div>
         <div class="opcoes">
-            <i class="bi bi-circle"></i>
-            <p class="opcoes-descricao">1 hour walk</p>
-            <p class="opcoes-preco">$49</p>
+                <div class="opcoes-descricao-div">
+                    <i class="bi bi-circle"></i>
+                    <p class="opcoes-descricao">1 hour walk</p>
+                </div>
+                <p class="opcoes-preco">$49</p>
+            </div>
+            <div id="barra-de-escrita">
+                <p>Type a message…</p>
+                <div id="botao-enviar-div">
+                    <img id="botao-enviar" src="img/arrow-right.svg" alt="Enviar">
+                </div>
+            </div>
         </div>
-        <div id="barra-de-escrita">
-            <p>Type a message…</p>
-            <img src="img/arrow-right.png" alt="Enviar">
-        </div>
-        </div>
+    </div>
     </div>
 </body>
 </html>
