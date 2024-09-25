@@ -25,7 +25,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Remove a rolagem horizontal */
+    overflow: hidden; /* Remove a rolagem horizontal */
     width: 100%; /* Garante que a largura do body não exceda a viewport */
     height: 100%; /* Garante que a altura do body não exceda a viewport */
     box-sizing: border-box;
