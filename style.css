@@ -248,33 +248,27 @@ body{
         height: 100vh;
         width: 100vw;
         overflow: hidden;
-        box-sizing: border-box;
     }
     
     #conteudo {
         overflow: hidden;
         flex-direction: column;
-        margin: 4rem 1rem;
+        margin: 4rem 2rem;
         gap: 2rem;
         width: 100%; /* Ajustar para não ultrapassar a tela */
         text-align: center;
-        box-sizing: border-box;
     }
 
     #textos {
-        width: 80vw;
-        margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
-        box-sizing: border-box;
+        width: 100%;
     }
 
     #detalhe-roxo {
-        position: absolute;
         right: 50%;
         bottom: 50%;
     }
 
     #detalhe-branco {
-        position: absolute;
         left: 50%;
         top: 50%;
     }
