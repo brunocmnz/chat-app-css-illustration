@@ -78,7 +78,6 @@ body{
     background-color: var(--cor-fundo-tela);
     border-radius: 20px;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 #tela-cabecalho{
@@ -245,21 +244,19 @@ body{
 #detalhe-roxo{
     bottom: 15%;
     right: 75%;
-    overflow: hidden;
 }
 
 #detalhe-branco{
     opacity: 3%;
     left: 75%;
     top: 15%;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 768px){
 
     body {
         padding: 1rem 0;
-        height: 120%;
+        height: 105%;
     }
     
     #conteudo {
