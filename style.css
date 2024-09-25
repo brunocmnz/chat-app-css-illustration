@@ -63,6 +63,7 @@ body{
     width: 247px;
     max-height: 505px;
     position: relative;
+    box-shadow: 5px 5px 15px rgba(62, 39, 83, 0.25); /* Sombra com a cor #3E2753 e 25% de opacidade */
 }
 
 #tela-interior{
