@@ -22,6 +22,15 @@
     --fonte: "Rubik", sans-serif;;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Remove a rolagem horizontal */
+    width: 100%; /* Garante que a largura do body não exceda a viewport */
+    height: 100%; /* Garante que a altura do body não exceda a viewport */
+    box-sizing: border-box;
+}
+
 body{
     font-family: var(--fonte);
     font-weight: var(--regular);
@@ -237,22 +246,23 @@ body{
 #detalhe-roxo{
     bottom: 15%;
     right: 75%;
+    overflow: hidden;
 }
 
 #detalhe-branco{
     opacity: 3%;
     left: 75%;
     top: 15%;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 768px){
 
     body {
-        height: 100%;
+        height: 100vh;
         width: 100vw;
-        overflow: hidden;
-        box-sizing: border-box;
         padding: 1rem 0;
+        overflow: hidden;
     }
     
     #conteudo {
